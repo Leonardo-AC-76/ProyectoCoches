@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#submenu
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.divFlex
+{
+    display: flex;
+    gap: 10px;
+}
+
+.submenuEnlace
+{
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.imagenes {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+    transform: translate(5%, 10%);
+    display:flex;
+    width: 90%;
+    height: 430px;
+}
+
+li > img{
+    width: 30px;
+}
+
+ .imagenes > img {
+    width: 0;  
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+.imagenes img:hover {
+    cursor: crosshair;
+    width: 700px;
+    opacity: 1; 
+    filter: contrast(120%); 
+    visibility: visible;
+}
+
+#breadcrumb li{
+    color:white
+}
+
+#breadcrumb a{
+    text-decoration: none;
+    color:white
+}
+
+h3{
+    text-align: center;
+}
+
+.footer{
+    width: 100%;
+    background-color: black;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.articuloX1{
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.titulo{
+    margin-top: 55px;
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: blue;
+}
+
+#fotos{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#caracteristicas{
+    transform: translate(12%, 2%);
+    width: 80%;
+    font-size: 1.5rem;
+}
+
+#caracteristicas h1{
+    text-align: center;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: blue; 
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu{
+    margin: 15px;  
+}
+
+#digital{
+    transform: translate(20px, 10px);
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.instagram{
+    color:pink;
+}
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    box-shadow: inset 0 0 0 3px rgb(52, 41, 201);
+    border-radius: 5px;
+    background-image:linear-gradient(rgba(45, 82, 161, 0.5), rgba(194, 213, 226, 0.5), 
+    rgba(45, 82, 161, 0.5)), url(../img/logofondo1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center; 
+    padding: 75px;   
+}
+
+#breadcrumb li{
+    color:white
+}
+
+#breadcrumb a{
+    text-decoration: none;
+    color:white
+}
+
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    margin-top: 15px;
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#uso{
+    position: relative;
+    top: 15px;
+}
+
+#ubicacion
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.ancho
+{
+    width: 100%;
+    height: 450px;
+}
+
+.instagram{
+    color:pink;
+}
